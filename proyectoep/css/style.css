@@ -1,0 +1,113 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+        header {
+                background-image: linear-gradient(
+                    rgba(87, 15, 145, 0),
+                    rgba(112, 35, 255, 0.658)),
+                   url(../Images/Game\ pass\ xd.jpg);
+                background-position: center bottom; 
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+        }
+
+        .menu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            width: 160px; 
+            position: relative;
+            right: 158px;
+            top:30px;
+        }
+
+
+.menu .navbar ul li {
+    font-size: 25px ;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+}
+
+
+.menu .navbar ul li a:hover{
+    color: rgb(255, 20, 243);
+}
+     
+#menu {
+    display: flex;
+}
+
+.menu-icono {
+        width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 73px;
+    line-height: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: deeppink;
+    color: #520974;
+    text-transform: uppercase;
+    }
+
+.coffee{
+    background: rgba(114, 38, 255, 0.726);
+}
